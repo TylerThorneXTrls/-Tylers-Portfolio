@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+        }
+        .main{
+            width:100%;
+            height: auto;
+            display: grid;
+            grid-template-rows: 50px 500px auto;
+            
+            
+        }
+        body{
+            background-color: black;
+            width: 98vw;
+            margin:auto
+            
+        }
+
+        .nav{
+            background-color: black;
+            align-items: center;
+            display: flex;
+            gap:20px;
+            justify-content: center;
+            
+
+
+        }
+
+       a{
+            color: white;
+            text-decoration: none;
+        }
+    
+        
+    
+    .bigimg{
+        background-image:url(download3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    button{
+        background-color: black;
+        padding:40px;
+        border-radius: 300px;
+        border-color: white;
+        color:WHITE;
+        font-size: 3em;
+
+        
+        
+    }
+    
+    h2{text-align: center;}
+    
+    
+    .Projects{
+        margin:auto;
+        display:flex;
+        gap:20px;
+        height:auto;
+        width:90%;
+        flex-wrap:wrap;
+        justify-content: center;
+
+       
+        
+        
+    }
+    .box{
+        
+        width:40%;
+        height:120px;
+        border:6px solid white;
+        
+        
+    }
+    button a:hover{
+        color:rgb(14, 255, 62);
+        transition: 0.5s;
+    }
+
+    .box:hover{
+        border:  10px solid rgb(14, 255, 62);
+        transition: 0.5s;
+        
+        
+    }
+    
+       
+    
+   
+   
+        
+    </style>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+        <h2>Tyler Thorne</h2>
+        <ul class="topbar">
+            <li>Home<a href=""></a></li>
+            <li>About<a></a></li>
+            <li>Contact<a></a></li>
+            <li>Projects<a></a></li>
+            <li>Git Hub<a></a></li>
+        </ul>
+   
+    
+    </nav>
+        <div class="bigimg">
+            
+            <button><a href="#Newest">Newest Project</a></button>
+        </div>
+        <div class="Projects">
+                <div class="box">
+                    <img width="50px">
+                </div>
+                <div class="box">
+                    <img width="50px">
+                </div>
+                <div class="box">
+                    <img width="50px">
+                </div>
+                <div class="box">
+                    <img width="50px">
+                </div>
+                <div class="box">
+                    <img width="50px">
+                </div>
+                <div class="box">
+                    <img width="50px">
+                </div>
+                
+
+        </div>
+        <footer>
+            ©2024 Tyler Thorne all right reserved
+        </footer>
+
+    </div>
+    
+</body>
+
+</html>
